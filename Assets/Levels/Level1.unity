@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 63951532}
   - component: {fileID: 63951533}
   m_Layer: 3
-  m_Name: Player_Yellow
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 406165f0042214143b24943c2fb00143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 10
+  speed: 8
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -302,7 +302,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 4495478712733764576, guid: 179a7708bf4f84b06a47528906643202, type: 3}
-  m_Color: {r: 1, g: 0.6470588, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -658,6 +658,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -783,6 +784,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613abe58643dbc6449a0559bebf25bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraControl
+  player: {fileID: 63951530}
 --- !u!1 &590427643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,6 +1031,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640648742}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &651507602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1288,8 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.15, y: 0.21}
   m_EdgeRadius: 0
+=======
+>>>>>>> d8c2d70134dacec591be9ce77dae12959afc2d6e
 --- !u!1 &763092222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,9 +1395,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
   players:
-  - {fileID: 651507602}
-  - {fileID: 1388255736}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 63951524}
+  currentPlayerIndex: 0
 --- !u!4 &852292002
 Transform:
   m_ObjectHideFlags: 0
@@ -1817,6 +1835,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291535026}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &1388255736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,6 +2092,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   slashEffectPrefab: {fileID: 4322403087341641804, guid: b9193747c8afb6e45823b06e6434b81c, type: 3}
+=======
+>>>>>>> d8c2d70134dacec591be9ce77dae12959afc2d6e
 --- !u!1 &1555512253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,8 +2693,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 651507606}
-  - {fileID: 1388255742}
   - {fileID: 63951530}
   - {fileID: 1205956925}
   - {fileID: 517123900}
