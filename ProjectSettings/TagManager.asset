@@ -9,6 +9,8 @@ TagManager:
   - Player_Blue
   - Player_Yellow
   - Enemy
+  - Checkpoint
+  - Elevator
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - Checkpoint
   - Ground
   - 
   - 
@@ -43,6 +45,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Foreground
+    uniqueID: 78778089
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
