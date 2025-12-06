@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 56b9be8e261e80f4f9f41defad87908b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5919234792489944331
+    second: blizzard_0
+  - first:
+      213: 8343697819779066290
+    second: blizzard_1
+  - first:
+      213: 4403866081641286502
+    second: blizzard_2
+  - first:
+      213: -4764247157934909068
+    second: blizzard_3
+  - first:
+      213: 3630747564550791185
+    second: blizzard_4
+  - first:
+      213: -1808052159201714137
+    second: blizzard_5
+  - first:
+      213: 2247719494468522414
+    second: blizzard_6
+  - first:
+      213: -1432210499849771675
+    second: blizzard_7
+  - first:
+      213: 2787970891057884432
+    second: blizzard_8
+  - first:
+      213: 2889727695670850714
+    second: blizzard_9
+  - first:
+      213: -4087974365529485352
+    second: blizzard_10
+  - first:
+      213: -352505190555043849
+    second: blizzard_11
+  - first:
+      213: 5476230192745431210
+    second: blizzard_12
+  - first:
+      213: -5554356039918213563
+    second: blizzard_13
+  - first:
+      213: 5235729562560382661
+    second: blizzard_14
+  - first:
+      213: -2596944914465670885
+    second: blizzard_15
+  - first:
+      213: 4564950641249179445
+    second: blizzard_16
+  - first:
+      213: 9116372873177704988
+    second: blizzard_17
+  - first:
+      213: 4532499995235425902
+    second: blizzard_18
+  - first:
+      213: -981358935022840798
+    second: blizzard_19
+  - first:
+      213: 6753683242578264962
+    second: blizzard_20
+  - first:
+      213: -2599083841233955673
+    second: blizzard_21
+  - first:
+      213: -3952326014612824438
+    second: blizzard_22
+  - first:
+      213: -1893476188960819846
+    second: blizzard_23
+  - first:
+      213: 8418471828590774466
+    second: blizzard_24
+  - first:
+      213: -3793961512608767130
+    second: blizzard_25
+  - first:
+      213: -1017751725070687661
+    second: blizzard_26
+  - first:
+      213: 2408465195357232048
+    second: blizzard_27
+  - first:
+      213: 6063470476069099447
+    second: blizzard_28
+  - first:
+      213: 6554790834137312707
+    second: blizzard_29
+  - first:
+      213: 5300674310217104812
+    second: blizzard_30
+  - first:
+      213: 2652125814577572851
+    second: blizzard_31
+  - first:
+      213: 3192232112240558533
+    second: blizzard_32
+  - first:
+      213: -6415579275340707984
+    second: blizzard_33
+  - first:
+      213: 4173383826752445628
+    second: blizzard_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 640
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blizzard_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 873
+        width: 67
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b050f7caea8552250800000000000000
+      internalID: 5919234792489944331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 873
+        width: 70
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9e125d5f4cac370800000000000000
+      internalID: 8343697819779066290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 873
+        width: 65
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bce9a5edcad1d30800000000000000
+      internalID: 4403866081641286502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 873
+        width: 65
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4791021b37ef1edb0800000000000000
+      internalID: -4764247157934909068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 646
+        width: 70
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1102a266ca1036230800000000000000
+      internalID: 3630747564550791185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 649
+        width: 71
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7206763042288e6e0800000000000000
+      internalID: -1808052159201714137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 646
+        width: 68
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea15486a8f0813f10800000000000000
+      internalID: 2247719494468522414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 649
+        width: 71
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565aed87324cf1ce0800000000000000
+      internalID: -1432210499849771675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 649
+        width: 71
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d62ad01ccd0b620800000000000000
+      internalID: 2787970891057884432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 646
+        width: 69
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94b11e57006a1820800000000000000
+      internalID: 2889727695670850714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 649
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df46bb39f89447c0800000000000000
+      internalID: -4087974365529485352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 648
+        width: 71
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f73c779566ab1bf0800000000000000
+      internalID: -352505190555043849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 511
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa04cd2985a7ffb40800000000000000
+      internalID: 5476230192745431210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 514
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54621a42c96fae2b0800000000000000
+      internalID: -5554356039918213563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 514
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c64c6c0c4c09a840800000000000000
+      internalID: 5235729562560382661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 511
+        width: 70
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1934080c5cc5fbd0800000000000000
+      internalID: -2596944914465670885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_16
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 514
+        width: 68
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53759dc0c66f95f30800000000000000
+      internalID: 4564950641249179445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 511
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aa3c9d3dcd38e70800000000000000
+      internalID: 9116372873177704988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 514
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e97704bbca6ee30800000000000000
+      internalID: 4532499995235425902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_19
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 514
+        width: 71
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224dec08f338162f0800000000000000
+      internalID: -981358935022840798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 314
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283c2676027e9bd50800000000000000
+      internalID: 6753683242578264962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 314
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4dac554033eebd0800000000000000
+      internalID: -2599083841233955673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_22
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 314
+        width: 85
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e97761e648629c0800000000000000
+      internalID: -3952326014612824438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 314
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75745e207509b5e0800000000000000
+      internalID: -1893476188960819846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_24
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 314
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c849ce668b64d470800000000000000
+      internalID: 8418471828590774466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_25
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 314
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66363750b14295bc0800000000000000
+      internalID: -3793961512608767130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_26
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 314
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352ee95c23830e1f0800000000000000
+      internalID: -1017751725070687661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_27
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 313
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbd827a5569c6120800000000000000
+      internalID: 2408465195357232048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 162
+        width: 67
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7da28b546c52450800000000000000
+      internalID: 6063470476069099447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 162
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdadbde88b47fa50800000000000000
+      internalID: 6554790834137312707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_30
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 162
+        width: 78
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad77827337cf8940800000000000000
+      internalID: 5300674310217104812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_31
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 163
+        width: 86
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb2a85706e3ec420800000000000000
+      internalID: 2652125814577572851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 79
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c181b261361d4c20800000000000000
+      internalID: 3192232112240558533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 13
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07785f8e3a847f6a0800000000000000
+      internalID: -6415579275340707984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard_34
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 12
+        width: 130
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc90f89a76dae930800000000000000
+      internalID: 4173383826752445628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blizzard_0: 5919234792489944331
+      blizzard_1: 8343697819779066290
+      blizzard_10: -4087974365529485352
+      blizzard_11: -352505190555043849
+      blizzard_12: 5476230192745431210
+      blizzard_13: -5554356039918213563
+      blizzard_14: 5235729562560382661
+      blizzard_15: -2596944914465670885
+      blizzard_16: 4564950641249179445
+      blizzard_17: 9116372873177704988
+      blizzard_18: 4532499995235425902
+      blizzard_19: -981358935022840798
+      blizzard_2: 4403866081641286502
+      blizzard_20: 6753683242578264962
+      blizzard_21: -2599083841233955673
+      blizzard_22: -3952326014612824438
+      blizzard_23: -1893476188960819846
+      blizzard_24: 8418471828590774466
+      blizzard_25: -3793961512608767130
+      blizzard_26: -1017751725070687661
+      blizzard_27: 2408465195357232048
+      blizzard_28: 6063470476069099447
+      blizzard_29: 6554790834137312707
+      blizzard_3: -4764247157934909068
+      blizzard_30: 5300674310217104812
+      blizzard_31: 2652125814577572851
+      blizzard_32: 3192232112240558533
+      blizzard_33: -6415579275340707984
+      blizzard_34: 4173383826752445628
+      blizzard_4: 3630747564550791185
+      blizzard_5: -1808052159201714137
+      blizzard_6: 2247719494468522414
+      blizzard_7: -1432210499849771675
+      blizzard_8: 2787970891057884432
+      blizzard_9: 2889727695670850714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

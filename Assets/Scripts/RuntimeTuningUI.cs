@@ -10,6 +10,7 @@ public class RuntimeTuningUI : MonoBehaviour
     private Vector2 scrollPosition;
     private GUIStyle boldLabelStyle;
     private static RuntimeTuningUI instance;
+    private static PlayerTunableStats cachedStats;
 
     private void Awake()
     {
@@ -116,11 +117,27 @@ public class RuntimeTuningUI : MonoBehaviour
     public static void Toggle(PlayerTunableStats stats)
     {
         RuntimeTuningUI ui = EnsureInstance();
-        if (stats != null)
+        PlayerTunableStats resolved = ResolveStats(stats);
+        if (resolved == null)
         {
-            ui.playerStats = stats;
+            Debug.LogWarning("RuntimeTuningUI could not find PlayerTunableStats to modify. Ensure a PlayerMovement is active.");
+            ui.windowVisible = false;
+            return;
         }
+
+        ui.playerStats = resolved;
+        cachedStats = resolved;
         ui.windowVisible = !ui.windowVisible;
+    }
+
+    public static void RegisterStats(PlayerTunableStats stats)
+    {
+        if (stats == null)
+            return;
+
+        cachedStats = stats;
+        if (instance != null)
+            instance.playerStats = stats;
     }
 
     private static RuntimeTuningUI EnsureInstance()
@@ -139,5 +156,34 @@ public class RuntimeTuningUI : MonoBehaviour
         GameObject obj = new GameObject("RuntimeTuningUI");
         instance = obj.AddComponent<RuntimeTuningUI>();
         return instance;
+    }
+
+    private static PlayerTunableStats ResolveStats(PlayerTunableStats candidate)
+    {
+        if (candidate != null)
+            return candidate;
+
+        if (cachedStats != null)
+            return cachedStats;
+
+        if (instance != null && instance.playerStats != null)
+            return instance.playerStats;
+
+        PlayerMovement movement = PlayerMovement.ActivePlayer;
+        if (movement == null)
+        {
+#if UNITY_2023_1_OR_NEWER
+            movement = FindFirstObjectByType<PlayerMovement>();
+#else
+            movement = FindObjectOfType<PlayerMovement>();
+#endif
+        }
+
+        if (movement == null)
+            return null;
+
+        PlayerTunableStats stats = movement.CurrentStats;
+        cachedStats = stats;
+        return stats;
     }
 }

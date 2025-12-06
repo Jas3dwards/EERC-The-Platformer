@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement ActivePlayer { get; private set; }
+
     [SerializeField] private PlayerTunableStats playerStats;
     [SerializeField] private float speed = 12f;
     [SerializeField] private float sprintMultiplier = 1.5f;
@@ -32,6 +34,37 @@ public class PlayerMovement : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         defaultGravityScale = body.gravityScale;
         EnsurePlayerStats();
+        ActivePlayer = this;
+        RuntimeTuningUI.RegisterStats(playerStats);
+    }
+
+    private void OnEnable()
+    {
+        ActivePlayer = this;
+        if (playerStats == null)
+            EnsurePlayerStats();
+        RuntimeTuningUI.RegisterStats(playerStats);
+    }
+
+    private void OnDisable()
+    {
+        if (ActivePlayer == this)
+            ActivePlayer = null;
+    }
+
+    private void OnDestroy()
+    {
+        if (ActivePlayer == this)
+            ActivePlayer = null;
+    }
+
+    public PlayerTunableStats CurrentStats
+    {
+        get
+        {
+            EnsurePlayerStats();
+            return playerStats;
+        }
     }
     private void Update()
     {
