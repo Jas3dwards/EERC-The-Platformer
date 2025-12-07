@@ -68,9 +68,13 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        HandleNoclipToggle();
-        HandleTuningToggle();
-        HandleHitboxToggle();
+        bool canProcessDebugInput = ActivePlayer == null || ActivePlayer == this;
+        if (canProcessDebugInput)
+        {
+            HandleNoclipToggle();
+            HandleTuningToggle();
+            HandleHitboxToggle();
+        }
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float facingDirection = Mathf.Sign(transform.localScale.x);
@@ -251,6 +255,17 @@ public class PlayerMovement : MonoBehaviour
             Mathf.Max(0.1f, Mathf.Abs(size.z))
         );
 
+        float projectileSpeed = 8f;
+        float meleeRange = 1f;
+        float meleeDuration = 0.2f;
+        PlayerAttack attackComponent = GetComponent<PlayerAttack>();
+        if (attackComponent != null)
+        {
+            projectileSpeed = Mathf.Max(0f, attackComponent.projectileSpeed);
+            meleeRange = Mathf.Max(0.1f, attackComponent.attackRange);
+            meleeDuration = Mathf.Max(0.01f, attackComponent.attackDuration);
+        }
+
         playerStats = PlayerTunableStats.CreateRuntimeInstance(
             speed,
             sprintMultiplier,
@@ -258,6 +273,9 @@ public class PlayerMovement : MonoBehaviour
             jumpForce,
             defaultGravityScale,
             defaultDamage,
+            projectileSpeed,
+            meleeRange,
+            meleeDuration,
             size
         );
     }

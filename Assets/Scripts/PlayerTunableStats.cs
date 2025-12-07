@@ -12,6 +12,9 @@ public class PlayerTunableStats : ScriptableObject
 
     [Header("Combat")]
     [SerializeField] private float damage = 10f;
+    [SerializeField] private float projectileSpeed = 8f;
+    [SerializeField] private float meleeAttackRange = 1f;
+    [SerializeField] private float meleeAttackDuration = 0.2f;
 
     [Header("Presentation")]
     [SerializeField] private Vector3 playerSize = new Vector3(6f, 6f, 1f);
@@ -26,6 +29,9 @@ public class PlayerTunableStats : ScriptableObject
         public float jumpForce;
         public float gravityScale;
         public float damage;
+        public float projectileSpeed;
+        public float meleeAttackRange;
+        public float meleeAttackDuration;
         public Vector3 playerSize;
     }
 
@@ -75,6 +81,24 @@ public class PlayerTunableStats : ScriptableObject
         set => damage = Mathf.Max(0f, value);
     }
 
+    public float ProjectileSpeed
+    {
+        get => projectileSpeed;
+        set => projectileSpeed = Mathf.Max(0f, value);
+    }
+
+    public float MeleeAttackRange
+    {
+        get => meleeAttackRange;
+        set => meleeAttackRange = Mathf.Max(0.1f, value);
+    }
+
+    public float MeleeAttackDuration
+    {
+        get => meleeAttackDuration;
+        set => meleeAttackDuration = Mathf.Max(0.01f, value);
+    }
+
     public Vector3 PlayerSize
     {
         get => playerSize;
@@ -92,6 +116,9 @@ public class PlayerTunableStats : ScriptableObject
         jumpForce = defaultSnapshot.jumpForce;
         gravityScale = defaultSnapshot.gravityScale;
         damage = defaultSnapshot.damage;
+        projectileSpeed = defaultSnapshot.projectileSpeed;
+        meleeAttackRange = defaultSnapshot.meleeAttackRange;
+        meleeAttackDuration = defaultSnapshot.meleeAttackDuration;
         playerSize = defaultSnapshot.playerSize;
     }
 
@@ -106,11 +133,25 @@ public class PlayerTunableStats : ScriptableObject
             jumpForce = jumpForce,
             gravityScale = gravityScale,
             damage = damage,
+            projectileSpeed = projectileSpeed,
+            meleeAttackRange = meleeAttackRange,
+            meleeAttackDuration = meleeAttackDuration,
             playerSize = playerSize
         };
     }
 
-    public void InitializeValues(float moveSpeedValue, float sprintMultiplierValue, float flySpeedValue, float jumpForceValue, float gravityScaleValue, float damageValue, Vector3 sizeValue, bool captureAsDefaults = true)
+    public void InitializeValues(
+        float moveSpeedValue,
+        float sprintMultiplierValue,
+        float flySpeedValue,
+        float jumpForceValue,
+        float gravityScaleValue,
+        float damageValue,
+        float projectileSpeedValue,
+        float meleeAttackRangeValue,
+        float meleeAttackDurationValue,
+        Vector3 sizeValue,
+        bool captureAsDefaults = true)
     {
         moveSpeed = moveSpeedValue;
         sprintMultiplier = sprintMultiplierValue;
@@ -118,6 +159,9 @@ public class PlayerTunableStats : ScriptableObject
         jumpForce = jumpForceValue;
         gravityScale = gravityScaleValue;
         damage = damageValue;
+        projectileSpeed = projectileSpeedValue;
+        meleeAttackRange = meleeAttackRangeValue;
+        meleeAttackDuration = meleeAttackDurationValue;
         playerSize = sizeValue;
 
         if (captureAsDefaults)
@@ -126,10 +170,31 @@ public class PlayerTunableStats : ScriptableObject
         }
     }
 
-    public static PlayerTunableStats CreateRuntimeInstance(float moveSpeedValue, float sprintMultiplierValue, float flySpeedValue, float jumpForceValue, float gravityScaleValue, float damageValue, Vector3 sizeValue)
+    public static PlayerTunableStats CreateRuntimeInstance(
+        float moveSpeedValue,
+        float sprintMultiplierValue,
+        float flySpeedValue,
+        float jumpForceValue,
+        float gravityScaleValue,
+        float damageValue,
+        float projectileSpeedValue,
+        float meleeAttackRangeValue,
+        float meleeAttackDurationValue,
+        Vector3 sizeValue)
     {
         PlayerTunableStats stats = CreateInstance<PlayerTunableStats>();
-        stats.InitializeValues(moveSpeedValue, sprintMultiplierValue, flySpeedValue, jumpForceValue, gravityScaleValue, damageValue, sizeValue, true);
+        stats.InitializeValues(
+            moveSpeedValue,
+            sprintMultiplierValue,
+            flySpeedValue,
+            jumpForceValue,
+            gravityScaleValue,
+            damageValue,
+            projectileSpeedValue,
+            meleeAttackRangeValue,
+            meleeAttackDurationValue,
+            sizeValue,
+            true);
         return stats;
     }
 }
